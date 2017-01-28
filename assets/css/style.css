@@ -19,27 +19,31 @@ body{
 	height: 100%;
 	width: 100%;
 }
+.linha{
+	clear: both;
+}
 /*  Estilos para a navbar */
 .navbar{
-	position: fixed;
+	text-align: center;
+	position: absolute;
 	width: 1100px;
 	left: calc(50% - 550px);
-	background-color: black;
+	background-color: white;
 }
+
 .navbar li{
-	float: right;
-	text-decoration: none;
 	display: inline-block;
 	margin-right: 50px;
 }
 .navbar a{
 	text-decoration: none;
 	font-size: 30px;
-	color: grey;
+	color: #6699ff;
 }
 .navbar a:hover{
-	color: white;
+	color: #3377ff;
 }
+
 /* Estilos para a sessão de equipes */
 #equipe{
 	width: 100%;
@@ -68,3 +72,4 @@ body{
 	-moz-border-radius: 150px;
 	background-color: black;
 }
+/* Estilos do rodape de todas as paginas */
