@@ -105,4 +105,13 @@ header{
 	background-color: black;
 }
 /* Fim estilos sessão de equipes */
+
+/* 05 - Estilos para a sessão sobre */
+#servicos{
+	position: relative;
+	background-color: #cccccc;
+	height: 70%;
+	width: 100%;
+}
+/* Fim estilos sobre */
 /* Estilos do rodape de todas as paginas */
