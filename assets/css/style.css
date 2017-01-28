@@ -12,16 +12,18 @@ body{
 	height: 100%;
 	width: 100%;
 }
+/* Fim geral */
+
 /*02 - Estilos para a navbar */
+.menu{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
 .navbar-default{
 	border-radius: 0px;
 	border-style: none;
 	background-color: black;
-}
-.menu{
-	position: fixed;
-	top: 0%;
-	width: 100%;
 }
 .container-fluid{
 	margin: 0px 50px;
@@ -39,6 +41,7 @@ body{
 	padding-top: 10px;
 }
 /*Fim navbar*/
+
 /* 03 - Estilos para o header */
 header{
 	position: relative;
@@ -46,33 +49,52 @@ header{
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	width: 100%;
-	height: 80%;
+	height: 700px;
 }
-.transparenciaHeader{
-	background-color: rgba(0, 102, 204, 0.3);
-	height: 100%;
+.linha{
+	clear: both;
+}
+.caixaHeader{
+	position: absolute;
+	height: 150px;
 	width: 100%;
+	top: calc(50% - 75px);
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
 }
+.caixaHeader h1{
+	font-family: "Spy Agency Condensed";
+	font-size: 80px;
+	color: white;
+}
+.caixaHeader h4{
+	color: white;
+}
+/*  Fim estilos header */
 
-/* Estilos para a sessão de equipes */
+/* 04 - Estilos para a sessão de equipes */
+.sessao{
+	margin-top: 30px;
+}
 #equipe{
 	width: 100%;
-	height: 500px;
+	height: 100%;
 	text-align: center;
 	padding: 50px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
 #equipe h2{
-	font-size: 50px;
+	font-size: 30px;
 }
 #equipe h3{
-	font-size: 20px;
+	font-size: 15px;
 	color: grey;
 }
 .equipeArticle{
 	padding: 50px;
 }
 .rosto{
+	margin-top: 50px;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
@@ -82,3 +104,5 @@ header{
 	-moz-border-radius: 150px;
 	background-color: black;
 }
+/* Fim estilos sessão de equipes */
+/* Estilos do rodape de todas as paginas */
