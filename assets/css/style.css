@@ -45,7 +45,7 @@ body{
 
 }
 .navbar a{
-	/*font-family: "Spy Agency Condensed";*/
+	font-family: "Spy Agency Condensed";
 	color: grey;
 }
 .navbar a:visited{
@@ -74,7 +74,7 @@ header{
 	background-color: rgba(0,0,0,0.6);
 }
 .caixaHeader h1{
-	/*font-family: "Spy Agency Condensed";*/
+	font-family: "Spy Agency Condensed";
 	font-size: 80px;
 	color: white;
 }
@@ -123,12 +123,13 @@ article{
 	color: white;
 }
 #aEmpresa h2, #estrutura h2{
+	font-family: "Spy Agency Condensed";
 	text-align: center;
 	width: 100%;
 	font-size: 48px;
-	background-color: black;
-}
+	background-color: black;}
 #aEmpresa h3{
+	font-family: "Spy Agency Condensed";
 	border-bottom: dotted;
 }
 #aEmpresa h2, h3, p{
