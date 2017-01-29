@@ -116,15 +116,18 @@ article{
 /* Fim estilos sessão de equipes */
 
 /* 5.0 - Estilos para a sessão sobre */
-#aEmpresa{
+#aEmpresa, #estrutura{
 	font-family: "Spy Agency Condensed";
 	color: white;
 }
-#aEmpresa h2{
+#aEmpresa h2, #estrutura h2{
 	text-align: center;
 	width: 100%;
 	font-size: 48px;
 	background-color: black;
+}
+#aEmpresa h3{
+	border-bottom: dotted;
 }
 #aEmpresa h2, h3, p{
 	margin: 0px;
@@ -154,6 +157,35 @@ article{
 }
 #aEmpresa .col-sm-12{
 	padding: 0px;
+}
+#estrutura{
+	text-align: center;
+}
+#estrutura h2{
+	margin-top: 0px;
+}
+#estrutura img{
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	margin-bottom: 10px;
+}
+#estrutura .col-md-6{
+	padding: 0px;
+	background-color: #666;
+	color: white;
+	border-top: solid;
+	border-color: black;
+}
+#estrutura .col-sm-12{
+	padding: 0px;
+}
+.definicao p{
+	margin: 0px 5px;
+}
+#estrutura .esquerda{
+	color: black;
+	background-color: white;
 }
 /* Fim estilos sobre */
 /* 6.0 Estilos do footer */
