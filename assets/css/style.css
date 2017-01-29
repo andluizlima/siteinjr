@@ -31,6 +31,7 @@ body{
 	position: fixed;
 	top: 0px;
 	width: 100%;
+	z-index: 1;
 }
 .navbar-default{
 	border-radius: 0px;
@@ -41,13 +42,15 @@ body{
 	margin: 0px 50px;
 
 }
-.navbar a:visited{
-	font-family: "Spy Agency Condensed";
-	color: black;
-}
 .navbar a{
 	font-family: "Spy Agency Condensed";
+	color: grey;
+}
+.navbar a:visited{5
 	color: black;
+}
+.navbar a:hover{
+	color: white;
 }
 .navbar-brand{
 	padding-top: 10px;
