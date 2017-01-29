@@ -90,17 +90,13 @@ header{
 	padding: 50px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
-article{
-	margin: 50px;
-	margin-bottom: 400px;
-}
-.sessao{
+.sessaoEquipes{
 	padding: 20px;
 }
-.sessao h2{
+.sessaoEquipes h2{
 	font-size: 70px;
 }
-.sessao h3{
+.sessaoEquipes h3{
 	font-size: 30px;
 }
 .rosto{
