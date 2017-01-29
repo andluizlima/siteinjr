@@ -20,6 +20,7 @@ body{
 	position: relative;
 	height: 100%;
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 .linha{
 	clear: both;
@@ -44,7 +45,7 @@ body{
 
 }
 .navbar a{
-	font-family: "Spy Agency Condensed";
+	/*font-family: "Spy Agency Condensed";*/
 	color: grey;
 }
 .navbar a:visited{
@@ -73,7 +74,7 @@ header{
 	background-color: rgba(0,0,0,0.6);
 }
 .caixaHeader h1{
-	font-family: "Spy Agency Condensed";
+	/*font-family: "Spy Agency Condensed";*/
 	font-size: 80px;
 	color: white;
 }
@@ -118,7 +119,7 @@ article{
 
 /* 5.0 - Estilos para a sessão sobre */
 #aEmpresa, #estrutura{
-	font-family: "Spy Agency Condensed";
+	/*font-family: "Spy Agency Condensed";*/
 	color: white;
 }
 #aEmpresa h2, #estrutura h2{
