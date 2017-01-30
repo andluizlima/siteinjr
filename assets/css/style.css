@@ -45,7 +45,6 @@ p, li{
 }
 .container-fluid{
 	margin: 0px 50px;
-
 }
 .navbar a{
 	font-family: "Spy Agency Condensed";
@@ -76,9 +75,6 @@ p, li{
     margin: 12px auto;
     width: 100px;
 }
-.navbar-collapse{
-	padding-right: 0px;
-}
 /*Fim navbar*/
 
 /* 3.0 - Estilos para o header */
@@ -92,7 +88,7 @@ header{
 }
 .caixaHeader{
 	position: absolute;
-	height: 150px;
+	height: 200px;
 	width: 100%;
 	top: calc(45% - 75px);
 	text-align: center;
@@ -118,7 +114,7 @@ header{
 	width: 100%;
 	/*height: 2300px;*/
 	text-align: center;
-	padding: 50px;
+	padding: 25px 50px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
 .sessaoEquipes{
@@ -139,6 +135,18 @@ header{
 }
 #equipes h2{
 	font-family: "Spy Agency Condensed";
+	border-top: dotted;
+	border-bottom: dotted;
+}
+.titulo h2{
+	font-family: "Spy Agency Condensed";
+	text-align: center;
+	width: 100%;
+	font-size: 48px;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 10px 0px;
 }
 /* Fim estilos sessão de equipes */
 
@@ -151,7 +159,8 @@ header{
 	text-align: center;
 	width: 100%;
 	font-size: 48px;
-	background-color: black;}
+	background-color: black;
+}
 #aEmpresa h3{
 	font-family: "Spy Agency Condensed";
 	border-bottom: dotted;
@@ -190,6 +199,7 @@ header{
 }
 #estrutura h2{
 	margin-top: 0px;
+	padding: 10px 0px;
 }
 #estrutura img{
 	border: solid;
@@ -225,12 +235,14 @@ header{
 .barraSessao{
 	font-family: "Spy Agency Condensed";
 	width: 100%;
-	height: 100px;
-	background-color: #0066cc;
+	background-color: black;
 	color: white;
+	margin: 0px;
 }
 .barraSessao h2{
-	font-size: 60px;
+	font-size: 48px;
+	padding: 10px 0px;
+	margin: 0px;
 }
 .infoSessao{
 	margin-top: 30px;
