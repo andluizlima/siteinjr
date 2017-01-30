@@ -344,15 +344,23 @@ header{
 /* 7.0 - Estilos do footer */
 footer{
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #0066cc;
 }
 #rodape{
-	padding: 50px 50px 0px 50px;
+	padding: 50px 0px 0px 0px;
 	color: white;
 	text-align: center;
 	border-top: solid;
 	border-width: 5px;
 	border-color: black;
+}
+#rodape .separacao{
+	border: solid;
+	margin-bottom: 0px;
+	border-color: black;
+}
+#rodape .logos{
+	background-color: white;
 }
 .info{
 	text-align: left;
