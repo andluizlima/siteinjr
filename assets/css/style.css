@@ -261,6 +261,84 @@ header{
 	top: calc(50% - 150px);
 	text-align: center;
 }
+#pqJunior{
+	text-align: center;
+	background-color: #ccc;
+	color: black;
+}
+#pqJunior h2, h3{
+	font-family: "Spy Agency Condensed";
+}
+.resposta{
+	padding: 20px;
+}
+.razoes h2{
+	font-size: 40px;
+	background-color: #0066cc;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: solid;
+	border-color: silver;
+	margin: 10px;
+}
+.facebook{
+	padding: 5px;
+	margin-top: 15px;
+}
+.separacao{
+	border-bottom: dotted;
+	margin: 15px 0px;
+}
+#portfolio{
+	text-align: center;
+}
+.portfolioPic img{
+  border: 10px solid #0066cc;  
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 100%; 
+}
+.brilha img {
+  -webkit-filter: contrast(40%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.brilha img:hover {
+  -webkit-filter: contrast(100%);
+}
+#contactar{
+	text-align: center;
+	position: relative;
+	background-image: url("../img/negociacao.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	height: 250px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#contactar .col-md-3, .col-sm-3, .col-xs-12{
+	padding: 0px;
+}
+#contactar .texto{
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+	color: black;
+	height: 40px;
+	top: calc(50% - 20px);
+	position: absolute;
+}
 /* Fim estilos home */
 
 /* 7.0 - Estilos do footer */
@@ -269,9 +347,12 @@ footer{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 #rodape{
-	padding: 50px;
+	padding: 50px 50px 0px 50px;
 	color: white;
 	text-align: center;
+	border-top: solid;
+	border-width: 5px;
+	border-color: black;
 }
 .info{
 	text-align: left;
