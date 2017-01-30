@@ -1,10 +1,11 @@
 /* 
-** 1.0 Geral
-** 2.0 Estilos para a navbar
-** 3.0 Estilos para o header
-** 4.0 Estilos para a sessão de equipes
-** 5.0 Estilos para a sessão sobre
-** 6.0 Estilos do footer
+** 1.0 - Geral
+** 2.0 - Estilos para a navbar
+** 3.0 - Estilos para o header
+** 4.0 - Estilos para a sessão de equipes
+** 5.0 - Estilos para a sessão sobre
+** 6.0 - Estilos para o home
+** 7.0 - Estilos do footer
 */
 
 /* 1.0 - Geral*/
@@ -24,24 +25,26 @@ body{
 .linha{
 	clear: both;
 }
+p, li{
+	font-weight: 800;
+}
 /* Fim geral */
 
 /* 2.0 - Estilos para a navbar */
-.menu{
+.navbar-default{
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 	font-size: 15px;
-}
-.navbar-default{
 	border-radius: 0px;
 	border-style: none;
 	background-color: black;
+	border-bottom: 1px solid;
+    border-color: #ccc;
 }
 .container-fluid{
 	margin: 0px 50px;
-
 }
 .navbar a{
 	font-family: "Spy Agency Condensed";
@@ -50,8 +53,27 @@ body{
 .navbar a:visited{
 	color: white;
 }
-.navbar-brand{
-	padding-top: 10px;
+.navbar-brand h3{
+	padding-top: 0px;
+	color: white;
+}
+.caixaLogo{
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    width: 120px;
+    height: 81px;
+    background: black;
+    border-bottom: 1px solid;
+    border-color: #ccc;
+}
+.caixaImagemLogo{
+    display: block;
+    margin: 12px auto;
+    width: 100px;
 }
 /*Fim navbar*/
 
@@ -66,11 +88,11 @@ header{
 }
 .caixaHeader{
 	position: absolute;
-	height: 150px;
+	height: 200px;
 	width: 100%;
-	top: calc(50% - 75px);
+	top: calc(45% - 75px);
 	text-align: center;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(255,255,255,0.05);
 }
 .caixaHeader h1{
 	font-family: "Spy Agency Condensed";
@@ -80,6 +102,11 @@ header{
 .caixaHeader h4{
 	color: white;
 }
+.transparenciaHeader{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
 /*  Fim estilos header */
 
 /* 4.0 - Estilos para a sessão de equipes */
@@ -87,16 +114,13 @@ header{
 	width: 100%;
 	/*height: 2300px;*/
 	text-align: center;
-	padding: 50px;
+	padding: 25px 50px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
 .sessaoEquipes{
 	padding: 20px;
 }
-.sessaoEquipes h2{
-	font-size: 70px;
-}
-.sessaoEquipes h3{
+.sessao h3{
 	font-size: 30px;
 }
 .rosto{
@@ -109,11 +133,25 @@ header{
 	-moz-border-radius: 150px;
 	background-color: black;
 }
+#equipes h2{
+	font-family: "Spy Agency Condensed";
+	border-top: dotted;
+	border-bottom: dotted;
+}
+.titulo h2{
+	font-family: "Spy Agency Condensed";
+	text-align: center;
+	width: 100%;
+	font-size: 48px;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 10px 0px;
+}
 /* Fim estilos sessão de equipes */
 
 /* 5.0 - Estilos para a sessão sobre */
 #aEmpresa, #estrutura{
-	font-family: "Spy Agency Condensed";
 	color: white;
 }
 #aEmpresa h2, #estrutura h2{
@@ -121,7 +159,8 @@ header{
 	text-align: center;
 	width: 100%;
 	font-size: 48px;
-	background-color: black;}
+	background-color: black;
+}
 #aEmpresa h3{
 	font-family: "Spy Agency Condensed";
 	border-bottom: dotted;
@@ -160,6 +199,7 @@ header{
 }
 #estrutura h2{
 	margin-top: 0px;
+	padding: 10px 0px;
 }
 #estrutura img{
 	border: solid;
@@ -185,7 +225,45 @@ header{
 	background-color: white;
 }
 /* Fim estilos sobre */
-/* 6.0 Estilos do footer */
+
+/* 6.0 - Estilos para o home */
+#home{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.barraSessao{
+	font-family: "Spy Agency Condensed";
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin: 0px;
+}
+.barraSessao h2{
+	font-size: 48px;
+	padding: 10px 0px;
+	margin: 0px;
+}
+.infoSessao{
+	margin-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-right: 1px solid black;
+}
+.infoSessao h3{
+	font-family: "Spy Agency Condensed";
+	border-bottom: dotted;
+}
+#headerHome .caixaHeader{
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	top: calc(50% - 150px);
+	text-align: center;
+}
+/* Fim estilos home */
+
+/* 7.0 - Estilos do footer */
 footer{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
